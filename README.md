@@ -1,7 +1,10 @@
 # Face Verification on LFW — Siamese Networks
 
-CIE 555 · Neural Networks and Deep Learning · Spring 2026
-Assignment 2 · Mohammed Ali · ID: 202200594
+Mohammed Ali
+
+---
+
+A TensorFlow implementation of Siamese Networks for one-shot face verification, built as an architecture exploration comparing a custom CNN backbone against EfficientNetB0 transfer learning, each under two metric-learning objectives — Contrastive Loss and Triplet Loss — with all loss functions written from scratch.
 
 ---
 
@@ -202,6 +205,6 @@ ROC curves and AUC values for all four configurations are generated in the final
 
 ---
 
-## Academic Context
+## About
 
-This notebook was submitted as Assignment 2 for CIE 555 (Neural Networks and Deep Learning), Spring 2026. All loss functions, data pipelines, and backbone architectures are implemented from scratch unless otherwise noted.
+A hands-on exploration of metric learning and Siamese architectures applied to real-world face verification. The project was built to develop practical intuition around backbone design choices, loss function trade-offs, and the effect of transfer learning on embedding quality — with everything implemented from scratch to maximise understanding over convenience.
